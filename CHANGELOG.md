@@ -1,3 +1,12 @@
+## 3.13.2
+- Update README with no longer maintaining message
+
+## 3.13.1
+- iOS: Update Appsflyer SDK iOS dependency 6.10.1 (#76)
+
+## 3.13.0
+- iOS: Update AppsFlyer version for iOS (#70)
+
 ## 3.12.1
 - iOS: Fix for iOS Application Installed event (#56)
 - iOS: Update iOS podspec dependency and metadata (#55)
