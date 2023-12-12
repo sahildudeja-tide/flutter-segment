@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_segment'
-  s.version          = '3.13.2'
+  s.version          = '3.13.3'
   s.summary          = 'Segment.io plugin for Flutter'
   s.description      = <<-DESC
 Library to let Flutter apps use Segment.io
@@ -11,7 +11,7 @@ Library to let Flutter apps use Segment.io
   s.homepage         = 'https://github.com/la-haus/flutter-segment'
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = 'La Haus'
-  s.source           = { :git => "https://github.com/la-haus/flutter-segment.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sahildudeja-tide/flutter-segment.git", :tag => s.version.to_s }
 
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
