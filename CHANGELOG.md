@@ -1,3 +1,6 @@
+## 3.13.3
+- iOS: Use newer version of `Segment-Firebase`
+
 ## 3.13.2
 - Update README with no longer maintaining message
 
