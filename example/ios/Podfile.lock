@@ -1,11 +1,11 @@
 PODS:
-  - Amplitude (8.17.2):
+  - Amplitude (8.18.1):
     - AnalyticsConnector (~> 1.0.0)
   - Analytics (4.1.6)
   - AnalyticsConnector (1.0.3)
-  - AppsFlyerFramework (6.12.2):
-    - AppsFlyerFramework/Main (= 6.12.2)
-  - AppsFlyerFramework/Main (6.12.2)
+  - AppsFlyerFramework (6.13.0):
+    - AppsFlyerFramework/Main (= 6.13.0)
+  - AppsFlyerFramework/Main (6.13.0)
   - Firebase (10.18.0):
     - Firebase/Core (= 10.18.0)
   - Firebase/Core (10.18.0):
@@ -35,19 +35,19 @@ PODS:
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.12)
     - GoogleUtilities/Logger (~> 7.12)
-  - FirebaseCoreInternal (10.19.0):
+  - FirebaseCoreInternal (10.22.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseInstallations (10.19.0):
+  - FirebaseInstallations (10.22.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
     - PromisesObjC (~> 2.1)
   - Flutter (1.0.0)
-  - flutter_segment (3.13.3):
+  - flutter_segment (3.13.4):
     - Analytics (= 4.1.6)
     - Flutter
     - Segment-Amplitude (= 3.3.2)
-    - segment-appsflyer-ios (= 6.12.2)
+    - segment-appsflyer-ios (= 6.13.0)
     - Segment-Firebase (= 2.7.14)
   - GoogleAppMeasurement (10.18.0):
     - GoogleAppMeasurement/AdIdSupport (= 10.18.0)
@@ -69,40 +69,49 @@ PODS:
     - GoogleUtilities/Network (~> 7.11)
     - "GoogleUtilities/NSData+zlib (~> 7.11)"
     - nanopb (< 2.30910.0, >= 2.30908.0)
-  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+  - GoogleUtilities/AppDelegateSwizzler (7.13.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.12.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.0):
+    - GoogleUtilities/Privacy
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.12.0):
+  - GoogleUtilities/Logger (7.13.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (7.12.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (7.13.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.12.0)"
-  - GoogleUtilities/Reachability (7.12.0):
+  - "GoogleUtilities/NSData+zlib (7.13.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.0)
+  - GoogleUtilities/Reachability (7.13.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (7.12.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (7.13.0):
     - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
   - nanopb (2.30909.1):
     - nanopb/decode (= 2.30909.1)
     - nanopb/encode (= 2.30909.1)
   - nanopb/decode (2.30909.1)
   - nanopb/encode (2.30909.1)
-  - PromisesObjC (2.3.1)
+  - PromisesObjC (2.4.0)
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
-  - segment-appsflyer-ios (6.12.2):
+  - segment-appsflyer-ios (6.13.0):
     - Analytics
-    - segment-appsflyer-ios/Main (= 6.12.2)
-  - segment-appsflyer-ios/Main (6.12.2):
+    - segment-appsflyer-ios/Main (= 6.13.0)
+  - segment-appsflyer-ios/Main (6.13.0):
     - Analytics
-    - AppsFlyerFramework (= 6.12.2)
+    - AppsFlyerFramework (= 6.13.0)
   - Segment-Firebase (2.7.14):
     - Analytics
     - Firebase (~> 10.18.0)
@@ -118,6 +127,7 @@ PODS:
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_segment (from `.symlinks/plugins/flutter_segment/ios`)
+  - segment-appsflyer-ios (= 6.13.0)
   - Segment-Firebase (from `https://github.com/foxanna/analytics-ios-integration-firebase`, tag `2.7.14`)
 
 SPEC REPOS:
@@ -153,25 +163,25 @@ CHECKOUT OPTIONS:
     :tag: 2.7.14
 
 SPEC CHECKSUMS:
-  Amplitude: 0485db1968c10d13dc40b7980fb9f83c4e3036ab
+  Amplitude: 7a0f3abd801de051fd06c81ee3dabd7a92f0a191
   Analytics: eefe524436f904b8bb3f8c8c3425280e43b34efc
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
-  AppsFlyerFramework: 6eb4d89d2eb9a6632317f1055b359d9fd85fd5ff
+  AppsFlyerFramework: cb54b4f27d2da2b3e2b286800476ce3b2007c75f
   Firebase: 414ad272f8d02dfbf12662a9d43f4bba9bec2a06
   FirebaseAnalytics: 4d310b35c48eaa4a058ddc04bdca6bdb5dc0fe80
   FirebaseCore: 2322423314d92f946219c8791674d2f3345b598f
-  FirebaseCoreInternal: b444828ea7cfd594fca83046b95db98a2be4f290
-  FirebaseInstallations: 033d199474164db20c8350736842a94fe717b960
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  flutter_segment: 3cc1411718ef26496a27ee1ed764e1b26a9d48aa
+  FirebaseCoreInternal: bca337352024b18424a61e478460547d46c4c753
+  FirebaseInstallations: 763814908793c0da14c18b3dcffdec71e29ed55e
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_segment: 00f645d5bd0c0cdd88e657fa462afa27a2498978
   GoogleAppMeasurement: 70ce9aa438cff1cfb31ea3e660bcc67734cb716e
-  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
-  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
-  segment-appsflyer-ios: 9e1d5001e0e27d28ec7a4d5d300f801f5eb078f6
+  segment-appsflyer-ios: 6188328b699e4eb4a5ac5ee6588c2a39a542ab4f
   Segment-Firebase: 7da40acc666b2472981cd60a38b2172b10f63d95
 
-PODFILE CHECKSUM: cf61d18f010087bf418ab7936b6fc447b9da5a6d
+PODFILE CHECKSUM: 6a01824f40995835c3718f5cd646aa6f6fe0f001
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2
