@@ -1,3 +1,9 @@
+## 3.13.5
+- iOS: Use newer `2.7.15` version of `Segment-Firebase`
+
+## 3.13.4
+- iOS: Use newer `2.7.14` version of `Segment-Firebase`
+
 ## 3.13.3
 - iOS: Use newer version of `Segment-Firebase`
 
