@@ -1,3 +1,6 @@
+## 4.0.0
+- Update to Dart `3.4.1` and Flutter `3.22.1`
+
 ## 3.13.5
 - iOS: Use newer `2.7.15` version of `Segment-Firebase`
 
