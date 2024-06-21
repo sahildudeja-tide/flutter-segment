@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_segment'
-  s.version          = '4.0.0'
+  s.version          = '4.0.1'
   s.summary          = 'Segment.io plugin for Flutter'
   s.description      = <<-DESC
 Library to let Flutter apps use Segment.io
@@ -19,7 +19,7 @@ Library to let Flutter apps use Segment.io
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.3.2'
-  s.dependency 'segment-appsflyer-ios', '6.13.0'
+  s.dependency 'segment-appsflyer-ios', '6.14.3'
   s.dependency 'Segment-Firebase', '2.7.15'
   s.ios.deployment_target = '11.0'
 
