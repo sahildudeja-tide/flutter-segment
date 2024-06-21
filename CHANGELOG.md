@@ -1,3 +1,7 @@
+## 4.0.1
+- iOS: Update Appsflyer SDK iOS dependency 6.14.3
+- Update to Dart `3.4.3` and Flutter `3.22.2`
+
 ## 4.0.0
 - Update to Dart `3.4.1` and Flutter `3.22.1`
 
