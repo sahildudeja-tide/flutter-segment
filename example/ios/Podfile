@@ -33,7 +33,7 @@ target 'Runner' do
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 
   pod 'Segment-Firebase', :git => "https://github.com/foxanna/analytics-ios-integration-firebase" , :tag => '2.7.15'
-  pod 'segment-appsflyer-ios', '6.14.3'
+  pod 'segment-appsflyer-ios', '6.13.0'
 end
 
 post_install do |installer|
